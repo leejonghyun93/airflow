@@ -1,12 +1,12 @@
-# 🚀 Airflow 학습 저장소
+# Airflow 학습 저장소
 
-## 📖 소개
+## 소개
 
 인프런 **김현진님의 [Airflow 마스터 클래스](강의링크)** 강의를 수강하며 작성한 실습 코드 저장소입니다.
 
 데이터 엔지니어로 성장하기 위해 Airflow를 처음부터 학습하고 있습니다.
 
-## 🎯 학습 목표
+## 학습 목표
 
 - [ ] Airflow 기본 개념 이해
 - [ ] DAG 작성 능력 향상
@@ -14,7 +14,7 @@
 - [ ] 실전 데이터 파이프라인 구축
 - [ ] 스케줄링 및 모니터링
 
-## 🛠 기술 스택
+## 기술 스택
 
 - **Orchestration**: Apache Airflow 2.8.1
 - **Container**: Docker & Docker Compose
@@ -22,7 +22,7 @@
 - **Database**: PostgreSQL 13
 - **Message Broker**: Redis
 
-## 🚀 빠른 시작
+## 빠른 시작
 
 ### 1. 저장소 클론
 ```bash
@@ -40,7 +40,7 @@ docker-compose up -d
 - ID: airflow
 - PW: airflow
 
-## 📁 프로젝트 구조
+##  프로젝트 구조
 ```
 airflow/
 ├── dags/                      # DAG 정의 파일
@@ -55,7 +55,7 @@ airflow/
 └── README.md
 ```
 
-## 💡 주요 학습 포인트
+## 주요 학습 포인트
 
 ### 1. DAG 작성 패턴
 ```python
@@ -75,7 +75,7 @@ with DAG(
 
 - [Airflow 공식 문서](https://airflow.apache.org/)
 
-## 📝 학습 일지
+## 학습 일지
 
 ### 2025-11-07
 - BashOperator 학습 완료
@@ -87,4 +87,3 @@ with DAG(
 
 - Blog: 블로그
 
-##
