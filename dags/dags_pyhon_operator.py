@@ -6,6 +6,7 @@ from airflow.operators.python import PythonOperator
 import random
 
 with DAG(
+
     dag_id="dags_python_operator",
     schedule="30 6 * * *",
     start_date=pendulum.datetime(2025,11,7, tz="Asia/Seoul"),
