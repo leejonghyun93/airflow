@@ -1174,3 +1174,627 @@ Traceback (most recent call last):
 airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
 [2025-11-13T06:50:36.916+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
 [2025-11-13T06:50:36.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.175 seconds
+[2025-11-13T06:51:08.167+0000] {processor.py:161} INFO - Started process (PID=3120) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:51:08.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:51:08.175+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:51:08.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:51:08.242+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:51:08.228+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:51:08.244+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:51:08.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.142 seconds
+[2025-11-13T06:51:38.843+0000] {processor.py:161} INFO - Started process (PID=3181) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:51:38.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:51:38.850+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:51:38.849+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:51:38.897+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:51:38.888+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:51:38.899+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:51:38.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.117 seconds
+[2025-11-13T06:52:09.214+0000] {processor.py:161} INFO - Started process (PID=3243) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:52:09.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:52:09.222+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:52:09.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:52:09.276+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:52:09.265+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:52:09.278+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:52:09.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.124 seconds
+[2025-11-13T06:52:39.657+0000] {processor.py:161} INFO - Started process (PID=3305) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:52:39.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:52:39.667+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:52:39.666+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:52:39.726+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:52:39.717+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:52:39.728+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:52:39.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.126 seconds
+[2025-11-13T06:53:10.043+0000] {processor.py:161} INFO - Started process (PID=3366) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:53:10.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:53:10.049+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:53:10.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:53:10.091+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:53:10.084+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:53:10.092+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:53:10.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.096 seconds
+[2025-11-13T06:53:40.417+0000] {processor.py:161} INFO - Started process (PID=3428) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:53:40.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:53:40.426+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:53:40.425+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:53:40.486+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:53:40.475+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:53:40.489+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:53:40.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.129 seconds
+[2025-11-13T06:54:10.981+0000] {processor.py:161} INFO - Started process (PID=3490) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:54:10.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:54:10.990+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:54:10.990+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:54:11.041+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:54:11.032+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:54:11.042+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:54:11.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.106 seconds
+[2025-11-13T06:54:41.251+0000] {processor.py:161} INFO - Started process (PID=3552) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:54:41.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:54:41.257+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:54:41.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:54:41.293+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:54:41.286+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:54:41.294+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:54:41.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.087 seconds
+[2025-11-13T06:55:11.819+0000] {processor.py:161} INFO - Started process (PID=3614) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:55:11.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:55:11.826+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:55:11.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:55:11.873+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:55:11.865+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:55:11.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:55:11.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.110 seconds
+[2025-11-13T06:55:42.756+0000] {processor.py:161} INFO - Started process (PID=3674) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:55:42.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:55:42.769+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:55:42.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:55:42.868+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:55:42.849+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:55:42.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:55:42.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.227 seconds
+[2025-11-13T06:56:13.592+0000] {processor.py:161} INFO - Started process (PID=3736) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:56:13.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:56:13.616+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:56:13.614+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:56:13.753+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:56:13.736+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:56:13.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:56:13.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.293 seconds
+[2025-11-13T06:56:44.006+0000] {processor.py:161} INFO - Started process (PID=3798) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:56:44.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:56:44.020+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:56:44.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:56:44.317+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:56:44.284+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:56:44.319+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:56:44.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.368 seconds
+[2025-11-13T06:57:14.799+0000] {processor.py:161} INFO - Started process (PID=3859) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:57:14.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:57:14.808+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:57:14.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:57:14.915+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:57:14.875+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:57:14.962+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:57:15.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.253 seconds
+[2025-11-13T06:57:45.757+0000] {processor.py:161} INFO - Started process (PID=3921) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:57:45.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:57:45.772+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:57:45.771+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:57:45.855+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:57:45.840+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:57:45.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:57:45.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.186 seconds
+[2025-11-13T06:58:16.330+0000] {processor.py:161} INFO - Started process (PID=3983) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:58:16.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:58:16.338+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:58:16.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:58:16.392+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:58:16.381+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:58:16.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:58:16.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.134 seconds
+[2025-11-13T06:58:46.602+0000] {processor.py:161} INFO - Started process (PID=4045) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:58:46.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:58:46.612+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:58:46.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:58:46.694+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:58:46.677+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:58:46.696+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:58:46.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.189 seconds
+[2025-11-13T06:59:17.365+0000] {processor.py:161} INFO - Started process (PID=4108) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:59:17.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:59:17.381+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:59:17.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:59:17.563+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:59:17.532+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:59:17.565+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:59:17.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.320 seconds
+[2025-11-13T06:59:48.333+0000] {processor.py:161} INFO - Started process (PID=4171) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:59:48.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T06:59:48.356+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:59:48.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:59:48.462+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:59:48.445+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T06:59:48.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T06:59:48.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.269 seconds
+[2025-11-13T07:00:19.238+0000] {processor.py:161} INFO - Started process (PID=4233) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:00:19.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:00:19.255+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:00:19.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:00:19.337+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:00:19.324+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:00:19.339+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:00:19.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.208 seconds
+[2025-11-13T07:00:50.361+0000] {processor.py:161} INFO - Started process (PID=4296) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:00:50.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:00:50.371+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:00:50.370+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:00:50.458+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:00:50.433+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:00:50.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:00:50.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.231 seconds
+[2025-11-13T07:01:20.970+0000] {processor.py:161} INFO - Started process (PID=4360) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:01:20.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:01:20.979+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:01:20.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:01:21.047+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:01:21.032+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:01:21.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:01:21.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.141 seconds
+[2025-11-13T07:01:52.196+0000] {processor.py:161} INFO - Started process (PID=4423) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:01:52.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:01:52.254+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:01:52.252+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:01:52.734+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:01:52.640+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:01:52.736+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:01:52.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.791 seconds
+[2025-11-13T07:02:23.157+0000] {processor.py:161} INFO - Started process (PID=4486) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:02:23.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:02:23.167+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:02:23.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:02:23.237+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:02:23.221+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:02:23.240+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:02:23.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.165 seconds
+[2025-11-13T07:02:53.924+0000] {processor.py:161} INFO - Started process (PID=4549) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:02:53.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:02:53.935+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:02:53.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:02:53.984+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:02:53.976+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:02:53.986+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:02:54.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.121 seconds
+[2025-11-13T07:03:25.636+0000] {processor.py:161} INFO - Started process (PID=4613) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:03:25.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:03:25.667+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:03:25.656+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:03:25.818+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:03:25.795+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:03:25.820+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:03:25.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.367 seconds
+[2025-11-13T07:03:56.172+0000] {processor.py:161} INFO - Started process (PID=4674) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:03:56.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:03:56.181+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:03:56.180+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:03:56.245+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:03:56.229+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:03:56.247+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:03:56.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.138 seconds
