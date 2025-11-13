@@ -2038,3 +2038,27 @@ Traceback (most recent call last):
 airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
 [2025-11-13T07:09:02.371+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
 [2025-11-13T07:09:02.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.139 seconds
+[2025-11-13T07:09:33.534+0000] {processor.py:161} INFO - Started process (PID=5364) to work on /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:09:33.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_operator.py for tasks to queue
+[2025-11-13T07:09:33.563+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:09:33.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:09:33.732+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:09:33.713+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_bash_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_bash_operator.py", line 23, in <module>
+    bash_t2 = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'bash_t1' has already been added to the DAG
+[2025-11-13T07:09:33.734+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_bash_operator.py
+[2025-11-13T07:09:33.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_operator.py took 0.357 seconds
