@@ -656,3 +656,45 @@ Traceback (most recent call last):
 ImportError: cannot import name 'regist2' from 'common.common_func' (/opt/airflow/plugins/common/common_func.py)
 [2025-11-13T06:49:31.920+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
 [2025-11-13T06:49:31.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.175 seconds
+[2025-11-13T06:50:02.204+0000] {processor.py:161} INFO - Started process (PID=2980) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:50:02.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2025-11-13T06:50:02.219+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:50:02.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:50:02.426+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:50:02.409+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_op_kwargs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_op_kwargs.py", line 5, in <module>
+    from common.common_func import regist2
+ImportError: cannot import name 'regist2' from 'common.common_func' (/opt/airflow/plugins/common/common_func.py)
+[2025-11-13T06:50:02.431+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:50:02.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.327 seconds
+[2025-11-13T06:50:33.444+0000] {processor.py:161} INFO - Started process (PID=3050) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:50:33.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2025-11-13T06:50:33.461+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:50:33.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:50:33.658+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:50:33.644+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_op_kwargs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_op_kwargs.py", line 5, in <module>
+    from common.common_func import regist2
+ImportError: cannot import name 'regist2' from 'common.common_func' (/opt/airflow/plugins/common/common_func.py)
+[2025-11-13T06:50:33.665+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:50:33.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.349 seconds
+[2025-11-13T06:51:04.001+0000] {processor.py:161} INFO - Started process (PID=3113) to work on /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:51:04.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_with_op_kwargs.py for tasks to queue
+[2025-11-13T06:51:04.007+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:51:04.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:51:04.054+0000] {logging_mixin.py:188} INFO - [2025-11-13T06:51:04.049+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dags_python_with_op_kwargs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags_python_with_op_kwargs.py", line 5, in <module>
+    from common.common_func import regist2
+ImportError: cannot import name 'regist2' from 'common.common_func' (/opt/airflow/plugins/common/common_func.py)
+[2025-11-13T06:51:04.056+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags_python_with_op_kwargs.py
+[2025-11-13T06:51:04.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_with_op_kwargs.py took 0.097 seconds
