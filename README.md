@@ -25,22 +25,26 @@
 ## 빠른 시작
 
 ### 1. 저장소 클론
+
 ```bash
 git clone [이 저장소 주소]
 cd airflow
 ```
 
 ### 2. Airflow 실행
+
 ```bash
 docker-compose up -d
 ```
 
 ### 3. 웹 UI 접속
+
 - URL: http://localhost:8080
 - ID: airflow
 - PW: airflow
 
-##  프로젝트 구조
+## 프로젝트 구조
+
 ```
 airflow/
 ├── dags/                      # DAG 정의 파일
@@ -58,6 +62,7 @@ airflow/
 ## 주요 학습 포인트
 
 ### 1. DAG 작성 패턴
+
 ```python
 from airflow import DAG
 from datetime import datetime
@@ -70,20 +75,6 @@ with DAG(
     # tasks...
 ```
 
-
 ## 🔗 참고 자료
 
 - [Airflow 공식 문서](https://airflow.apache.org/)
-
-## 학습 일지
-
-### 2025-11-07
-- BashOperator 학습 완료
-- 외부 쉘 스크립트 실행 방법 학습
-
-### 2025-11-08
-- PythonOperator 학습 시작
-- 랜덤 과일 선택 DAG 작성
-
-- Blog: 블로그
-
