@@ -527,3 +527,52 @@
 [2025-11-13T07:03:56.264+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:03:56.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-11-13T07:03:56.322+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:03:56.321+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_Bash_with_template to 2025-11-11 15:10:00+00:00, run_after=2025-11-12 15:10:00+00:00
 [2025-11-13T07:03:56.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_with_template.py took 0.235 seconds
+[2025-11-13T07:04:26.696+0000] {processor.py:161} INFO - Started process (PID=4737) to work on /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:04:26.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_with_template.py for tasks to queue
+[2025-11-13T07:04:26.707+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:26.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:04:26.765+0000] {processor.py:840} INFO - DAG(s) 'dags_Bash_with_template' retrieved from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:04:26.852+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:26.851+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:04:26.976+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:26.976+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_Bash_with_template to 2025-11-11 15:10:00+00:00, run_after=2025-11-12 15:10:00+00:00
+[2025-11-13T07:04:27.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_with_template.py took 0.425 seconds
+[2025-11-13T07:04:57.990+0000] {processor.py:161} INFO - Started process (PID=4798) to work on /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:04:57.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_with_template.py for tasks to queue
+[2025-11-13T07:04:58.006+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:58.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:04:58.044+0000] {processor.py:840} INFO - DAG(s) 'dags_Bash_with_template' retrieved from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:04:58.078+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:58.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:04:58.125+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:58.125+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_Bash_with_template to 2025-11-11 15:10:00+00:00, run_after=2025-11-12 15:10:00+00:00
+[2025-11-13T07:04:58.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_with_template.py took 0.202 seconds
+[2025-11-13T07:05:28.397+0000] {processor.py:161} INFO - Started process (PID=4861) to work on /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:05:28.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_with_template.py for tasks to queue
+[2025-11-13T07:05:28.407+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:28.406+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:05:28.449+0000] {processor.py:840} INFO - DAG(s) 'dags_Bash_with_template' retrieved from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:05:28.506+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:28.505+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:05:28.578+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:28.577+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_Bash_with_template to 2025-11-11 15:10:00+00:00, run_after=2025-11-12 15:10:00+00:00
+[2025-11-13T07:05:28.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_with_template.py took 0.245 seconds
+[2025-11-13T07:05:59.312+0000] {processor.py:161} INFO - Started process (PID=4924) to work on /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:05:59.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_with_template.py for tasks to queue
+[2025-11-13T07:05:59.319+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:59.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:05:59.362+0000] {processor.py:840} INFO - DAG(s) 'dags_Bash_with_template' retrieved from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:05:59.421+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:59.420+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:05:59.545+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:59.544+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_Bash_with_template to 2025-11-11 15:10:00+00:00, run_after=2025-11-12 15:10:00+00:00
+[2025-11-13T07:05:59.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_with_template.py took 0.421 seconds
+[2025-11-13T07:06:30.009+0000] {processor.py:161} INFO - Started process (PID=4987) to work on /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:06:30.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_with_template.py for tasks to queue
+[2025-11-13T07:06:30.028+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:30.027+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:06:30.148+0000] {processor.py:840} INFO - DAG(s) 'dags_Bash_with_template' retrieved from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:06:30.303+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:30.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:06:30.506+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:30.505+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_Bash_with_template to 2025-11-11 15:10:00+00:00, run_after=2025-11-12 15:10:00+00:00
+[2025-11-13T07:06:30.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_with_template.py took 0.626 seconds
+[2025-11-13T07:07:00.748+0000] {processor.py:161} INFO - Started process (PID=5050) to work on /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:07:00.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_with_template.py for tasks to queue
+[2025-11-13T07:07:00.754+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:00.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:07:00.784+0000] {processor.py:840} INFO - DAG(s) 'dags_Bash_with_template' retrieved from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:07:00.820+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:00.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:07:00.859+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:00.859+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_Bash_with_template to 2025-11-11 15:10:00+00:00, run_after=2025-11-12 15:10:00+00:00
+[2025-11-13T07:07:00.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_with_template.py took 0.157 seconds
+[2025-11-13T07:07:31.280+0000] {processor.py:161} INFO - Started process (PID=5112) to work on /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:07:31.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_bash_with_template.py for tasks to queue
+[2025-11-13T07:07:31.287+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:31.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:07:31.320+0000] {processor.py:840} INFO - DAG(s) 'dags_Bash_with_template' retrieved from /opt/airflow/dags/dags_bash_with_template.py
+[2025-11-13T07:07:31.354+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:31.353+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:07:31.393+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:31.392+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_Bash_with_template to 2025-11-11 15:10:00+00:00, run_after=2025-11-12 15:10:00+00:00
+[2025-11-13T07:07:31.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_bash_with_template.py took 0.159 seconds

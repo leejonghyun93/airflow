@@ -516,3 +516,52 @@
 [2025-11-13T07:03:33.418+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:03:33.417+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-11-13T07:03:33.469+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:03:33.469+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_python_task_Decorator to 2025-11-09 17:00:00+00:00, run_after=2025-11-16 17:00:00+00:00
 [2025-11-13T07:03:33.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_task_decorator.py took 0.201 seconds
+[2025-11-13T07:04:03.928+0000] {processor.py:161} INFO - Started process (PID=4688) to work on /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:04:03.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_task_decorator.py for tasks to queue
+[2025-11-13T07:04:03.957+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:03.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:04:04.182+0000] {processor.py:840} INFO - DAG(s) 'dags_python_task_Decorator' retrieved from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:04:04.263+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:04.262+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:04:04.393+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:04.392+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_python_task_Decorator to 2025-11-09 17:00:00+00:00, run_after=2025-11-16 17:00:00+00:00
+[2025-11-13T07:04:04.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_task_decorator.py took 0.661 seconds
+[2025-11-13T07:04:35.522+0000] {processor.py:161} INFO - Started process (PID=4751) to work on /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:04:35.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_task_decorator.py for tasks to queue
+[2025-11-13T07:04:35.545+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:35.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:04:35.650+0000] {processor.py:840} INFO - DAG(s) 'dags_python_task_Decorator' retrieved from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:04:35.734+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:35.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:04:35.892+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:04:35.891+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_python_task_Decorator to 2025-11-09 17:00:00+00:00, run_after=2025-11-16 17:00:00+00:00
+[2025-11-13T07:04:36.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_task_decorator.py took 0.513 seconds
+[2025-11-13T07:05:06.307+0000] {processor.py:161} INFO - Started process (PID=4814) to work on /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:05:06.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_task_decorator.py for tasks to queue
+[2025-11-13T07:05:06.318+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:06.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:05:06.362+0000] {processor.py:840} INFO - DAG(s) 'dags_python_task_Decorator' retrieved from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:05:06.412+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:06.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:05:06.475+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:06.474+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_python_task_Decorator to 2025-11-09 17:00:00+00:00, run_after=2025-11-16 17:00:00+00:00
+[2025-11-13T07:05:06.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_task_decorator.py took 0.230 seconds
+[2025-11-13T07:05:37.325+0000] {processor.py:161} INFO - Started process (PID=4877) to work on /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:05:37.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_task_decorator.py for tasks to queue
+[2025-11-13T07:05:37.349+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:37.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:05:37.469+0000] {processor.py:840} INFO - DAG(s) 'dags_python_task_Decorator' retrieved from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:05:37.563+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:37.563+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:05:37.677+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:05:37.676+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_python_task_Decorator to 2025-11-09 17:00:00+00:00, run_after=2025-11-16 17:00:00+00:00
+[2025-11-13T07:05:37.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_task_decorator.py took 0.493 seconds
+[2025-11-13T07:06:08.458+0000] {processor.py:161} INFO - Started process (PID=4941) to work on /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:06:08.480+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_task_decorator.py for tasks to queue
+[2025-11-13T07:06:08.488+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:08.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:06:08.602+0000] {processor.py:840} INFO - DAG(s) 'dags_python_task_Decorator' retrieved from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:06:08.704+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:08.701+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:06:08.815+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:08.814+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_python_task_Decorator to 2025-11-09 17:00:00+00:00, run_after=2025-11-16 17:00:00+00:00
+[2025-11-13T07:06:08.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_task_decorator.py took 0.480 seconds
+[2025-11-13T07:06:39.371+0000] {processor.py:161} INFO - Started process (PID=5004) to work on /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:06:39.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_task_decorator.py for tasks to queue
+[2025-11-13T07:06:39.398+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:39.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:06:39.508+0000] {processor.py:840} INFO - DAG(s) 'dags_python_task_Decorator' retrieved from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:06:39.594+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:39.593+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:06:39.715+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:06:39.712+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_python_task_Decorator to 2025-11-09 17:00:00+00:00, run_after=2025-11-16 17:00:00+00:00
+[2025-11-13T07:06:39.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_task_decorator.py took 0.465 seconds
+[2025-11-13T07:07:10.158+0000] {processor.py:161} INFO - Started process (PID=5066) to work on /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:07:10.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags_python_task_decorator.py for tasks to queue
+[2025-11-13T07:07:10.176+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:10.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:07:10.270+0000] {processor.py:840} INFO - DAG(s) 'dags_python_task_Decorator' retrieved from /opt/airflow/dags/dags_python_task_decorator.py
+[2025-11-13T07:07:10.334+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:10.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-13T07:07:10.420+0000] {logging_mixin.py:188} INFO - [2025-11-13T07:07:10.419+0000] {dag.py:3823} INFO - Setting next_dagrun for dags_python_task_Decorator to 2025-11-09 17:00:00+00:00, run_after=2025-11-16 17:00:00+00:00
+[2025-11-13T07:07:10.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags_python_task_decorator.py took 0.348 seconds
